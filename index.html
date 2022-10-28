@@ -48,51 +48,51 @@
         </table>
         <!-- Simple Textfield -->
         <form action="#">
-          <p>Side 1</p>
+          Length:
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="side-1-of-triangle"
+              id="v-length-of-pyramid"
+              aria-label="Length"
             />
-            <label class="mdl-textfield__label" for="side-1-of-triangle"
-              >Side (cm) ...</label
-            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
+          mm
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Side 2</p>
+          Width:
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="side-2-of-triangle"
+              id="v-width-of-pyramid"
+              aria-label="Width"
             />
-            <label class="mdl-textfield__label" for="side-2-of-triangle"
-              >Side (cm) ...</label
-            >
-            <!-- Numeric Textfield -->
-        <form action="#">
-          <p>Side 3</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="side-3-of-triangle"
-            />
-            <label class="mdl-textfield__label" for="side-3-of-triangle"
-              >Side (cm) ...</label
-            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
+          mm
         </form>
-        <br />
+            <!-- Numeric Textfield -->
+        <form action="#">
+          Height:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="v-height-of-pyramid"
+              aria-label="Height"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
+        </form>
         <!-- Raised button with ripple -->
+        <br />
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="calculate()"
