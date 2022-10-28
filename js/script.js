@@ -27,6 +27,5 @@ function calculate() {
   const pyramid = length * width * height
 
   // output
-  document.getElementById("volume").innerHTML =
-    "volume is: " + pyramid + " mm³"
+  document.getElementById("volume").innerHTML = "volume is: " + pyramid + " mm³"
 }
