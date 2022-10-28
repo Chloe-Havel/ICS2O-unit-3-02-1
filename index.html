@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="a web page" />
->>>>>>> 2aac60c1c0eb3e2a022d3e59c390b62e5d815c37
+    <meta charset="utf-8" />
+    <meta name="description" content="Area and Perimeter, with JavaScript" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Mr. Coxall" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,16 +11,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
     <link
-=======
-      rel="canonical"
-      href="https://Chloe-Havel.github.io/ICS2O-Unit-3-01-js/"
-    />
-    <link rel="manifest" href="/ICS2O-Unit-3-01-js/manifest.webmanifest" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!--- None blocking for Lighthouse report --->
-    <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
-    <link
->>>>>>> 2aac60c1c0eb3e2a022d3e59c390b62e5d815c37
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
@@ -41,18 +27,14 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-=======
-          <span class="mdl-layout-title">Area of a trapezoid</span>
->>>>>>> 2aac60c1c0eb3e2a022d3e59c390b62e5d815c37
+          <span class="mdl-layout-title">Perimeter Of A Triangle</span>
         </div>
       </header>
       <main class="mdl-layout__content">
-=======
         <table>
           <tr>
             <th>
-              <img
-                src="./images/trapezoid.svg"
+              <img src="./images/perimeter.jpg"
                 alt="rectangle"
                 width="75%"
                 height="auto"
@@ -60,56 +42,56 @@
             </th>
             <th>
               <h2>Formulas</h2>
-              <h3>A = [ ( A + B ) / 2 ] h</h3>
+              <h3>P = A + B + C </h3>
             </th>
           </tr>
         </table>
         <!-- Simple Textfield -->
         <form action="#">
-          <p>A Base</p>
+          <p>Side 1</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="a-base-of-trapezoid"
-              aria-label="A Base"
+              id="side-1-of-triangle"
             />
+            <label class="mdl-textfield__label" for="side-1-of-triangle"
+              >Side (cm) ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          mm
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>B Base</p>
+          <p>Side 2</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="b-base-of-trapezoid"
-              aria-label="B Base"
+              id="side-2-of-triangle"
             />
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          mm
-        </form>
-        <!-- Numeric Textfield -->
+            <label class="mdl-textfield__label" for="side-2-of-triangle"
+              >Side (cm) ...</label
+            >
+            <!-- Numeric Textfield -->
         <form action="#">
-          <p>height</p>
+          <p>Side 3</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-trapezoid"
-              aria-label="height"
+              id="side-3-of-triangle"
             />
+            <label class="mdl-textfield__label" for="side-3-of-triangle"
+              >Side (cm) ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          mm
         </form>
->>>>>>> 2aac60c1c0eb3e2a022d3e59c390b62e5d815c37
+        <br />
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
