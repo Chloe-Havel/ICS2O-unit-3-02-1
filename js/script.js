@@ -24,9 +24,9 @@ function calculate() {
   const width = parseInt(document.getElementById("v-width-of-pyramid").value)
   const height = parseInt(document.getElementById("-height-of-pyramid").value)
   // process
-  const triangle = length * width * height
+  const pyramid = length * width * height
 
   // output
-  document.getElementById("area").innerHTML =
-    "perimeter is: " + triangle + " cm "
+  document.getElementById("volume").innerHTML =
+    "volume is: " + pyramid + " mm³"
 }
