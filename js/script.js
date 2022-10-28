@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function calculates area and perimeter of rectangle.
  */
- function calculate() {
+function calculate() {
   // input
   const Side1 = parseInt(document.getElementById("side-1-of-triangle").value)
   const Side2 = parseInt(document.getElementById("side-2-of-triangle").value)
@@ -27,5 +27,6 @@ if (navigator.serviceWorker) {
   const triangle = Side1 + Side2 + Side3
 
   // output
-  document.getElementById("area").innerHTML = "perimeter is: " + triangle + " cm "
+  document.getElementById("area").innerHTML =
+    "perimeter is: " + triangle + " cm "
 }
